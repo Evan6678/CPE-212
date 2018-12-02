@@ -1,0 +1,81 @@
+# p01input3.txt -- Test of Rotate Clockwise/Counter Clockwise
+
+0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+1 1 1 0 0 0 0 0 0 0
+
+
+# Draw Bars
+b
+
+# Print Original Image
+p
+
+# Test Rotate Clockwise 90 Degrees Image
++
+
+# Print Rotated Image
+p
+
+# Test Rotate Clockwise 90 Degrees Image
++
+
+# Print Rotated Image
+p
+
+# Test Rotate Clockwise 90 Degrees Image
++
+
+# Print Rotated Image
+p
+
+# Test Rotate Clockwise 90 Degrees Image
++
+
+# Print Rotated Image
+p
+
+# Draw Bars
+b
+
+# Draw Bars
+b
+
+# Print Image
+p
+
+# Test Rotate Counter Clockwise 90 Degrees Image
+-
+
+# Print Rotated Image
+p
+
+# Test Rotate Counter Clockwise 90 Degrees Image
+-
+
+# Print Rotated Image
+p
+
+# Test Rotate Counter Clockwise 90 Degrees Image
+-
+
+# Print Rotated Image
+p
+
+# Test Rotate Counter Clockwise 90 Degrees Image
+-
+
+# Print Rotated Image
+p
+
+
+# Draw Bars
+b
+

@@ -1,0 +1,108 @@
+# p03input1.txt -- Test MiniStack class member functions
+
+# Test MiniStack(), ~MiniStack()
+c M
+p
+d
+
+~
+
+# Test MiniStack(), ~MiniStack(), IsEmpty(), IsFull()
+c M
+e
+f
+d
+
+~
+
+# Test Push(), IsEmpty(), IsFull(), Top()
+c M
+p
+e
+f
+t
++ a
+p
+e
+f
+t
++ b
+p
+e
+f
+t
++ c
+p
+e
+f
+t
++ d
+p
+e
+f
+t
++ e
+p
+e
+f
+t
+d
+
+~
+
+# Test Push(), Pop(), Top()
+c M
+-
++ a
++ b
++ c
++ d
++ e
++ f
+p
+-
+-
+p
+t
++ g
++ h
+p
+t
+-
+-
+-
+p
+-
+-
+-
+p
+d
+
+~
+
+# Test MakeEmpty()
+c M
+e
+f
++ a
++ b
++ c
++ d
++ e
++ f
+p
+e
+f
+x
+p
+e
+f
++ g
++ h
+p
+x
+p
+d
+
+
+

@@ -1,0 +1,101 @@
+# p04input2.txt -- Test: Size(), Front(), Rear(), MakeEmpty()
+
+# Test Size()
+c
+s
++ H Cat Food
+s
++ L Dog Walk
+s
++ M Goat Chow
+p
+s
+-
+p
+s
+-
+p
+s
+-
+p
+s
+-
+p
+s
+d
+
+
+# Test Front() and Rear()
+c
+f
+r
++ H Cat Food
+f
+r
++ L Dog Walk
+f
+r
++ M Goat Chow
+f
+r
++ H Horse Oats
+f
+r
++ L Rabbit Food
+f
+r
++ M Zebra Stripes
+f
+r
++ H Bird Seed
+f
+r
+p
+-
+f
+r
+p
+-
+f
+r
+p
+-
+f
+r
+p
+d
+
+
+# Test MakeEmpty normal operation
+c
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+m
+p
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
+p
+m
+p
+d
+
+# Test MakeEmpty error handling
+c
+p
+m
+p
+d
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+# p02input1.txt - Test Shape class
+
+# Test default constructor
++ s
+?
+-
+
+# Test parameterized constructor
++ S 1 2 3
+?
+-
+
+# Test area() and perimeter() with default constructor
++ s
+?
+a
+p
+-
+
+# Test area() and perimeter() with parameterized constructor
++ S 1 2 3
+?
+a
+p
+-
+
+# Test getColor() with default constructor
++ s
+?
+c
+-
+
+# Test getColor() parameterized constructor
++ S 1 2 3
+?
+c
+-
+

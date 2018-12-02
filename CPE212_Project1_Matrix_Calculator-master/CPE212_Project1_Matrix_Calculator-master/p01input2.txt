@@ -1,0 +1,60 @@
+# p01input2.txt -- Test of Horizontal/Vertical Flip
+
+0 1 1 1 0 1 0 0 0 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 1 1 0 0 0 0 1
+0 0 0 1 1 0 0 0 0 0
+0 0 0 1 1 1 1 0 0 1
+1 0 0 1 1 1 1 0 0 0
+1 0 0 1 1 0 0 0 0 0
+0 0 0 1 1 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 1 1 1 1 0
+
+# Draw Bars
+b
+
+# Print Original Image
+p
+
+# Draw Bars
+b
+
+# Test Horizontal Flip of Image
+h
+
+# Print Flipped Image
+p
+
+# Test Horizontal Flip of Image
+h
+
+# Print Flipped Image
+p
+
+# Draw Bars
+b
+
+# Test Vertical Flip of Image
+# Draw Bars
+b
+
+# Print Image
+p
+
+# Test Vertical Flip of Image
+v
+
+# Print Flipped Image
+p
+
+# Test Vertical Flip of Image
+v
+
+# Print Flipped Image
+p
+
+# Draw Bars
+b
+
+

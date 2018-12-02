@@ -1,0 +1,116 @@
+# p04input1.txt -- Test: PriorityQ(), Enqueue(), Dequeue(), ~PriorityQ()
+
+# Test adding messages H to L (add at rear)
+c
++ H Cat Food
++ M Goat Chow
++ L Dog Walk
+p
+d
+
+# Test adding messages L to H (add at front)
+c
++ L Dog Walk
++ M Goat Chow
++ H Cat Food
+p
+d
+
+# Test adding messages (add in between)
+c
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
+p
+d
+
+# Test adding messages with same priorities
+c
++ H Cat Food
++ H Dog Kibble
++ H Fish Food
++ H Cat Food
+p
+d
+
+# Test adding messages (arbitrary)
+c
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
++ L Dog Walk
+p
+d
+
+# Test Dequeue normal operation
+c
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
+p
+-
+p
+-
+p
+-
+p
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+-
+p
+-
+p
+-
+p
+-
+p
+-
+p
+-
+p
+-
+p
+d
+
+
+# Test Dequeue error handling
+c
+-
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+-
+p
+-
+p
+-
+p
+-
+p
+-
+p
+-
+p
+-
+p
+-
+p
+d
+
+
+

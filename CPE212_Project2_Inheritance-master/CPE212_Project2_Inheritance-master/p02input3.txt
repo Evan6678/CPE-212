@@ -1,0 +1,40 @@
+# p02input1.txt - Test Rectangle class
+
+# Test default constructor
++ r
+?
+-
+
+# Test parameterized constructor
++ R 3 5 0 128 256
+?
+-
+
+# Test getColor() with default constructor
++ r
+?
+c
+-
+
+# Test getColor() with parameterized constructor
++ R 3 5 0 128 256
+?
+c
+-
+
+# Test area() and perimeter()  with default constructor
++ r
+?
+a
+p
+-
+
+# Test area() and perimeter() with parameterized constructor
++ R 3 5 0 128 256
+?
+a
+p
+-
+
+
+

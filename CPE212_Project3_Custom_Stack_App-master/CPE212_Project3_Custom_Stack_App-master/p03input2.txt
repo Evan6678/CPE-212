@@ -1,0 +1,58 @@
+# p03input2.txt -- Test BigStack class member functions
+
+# Test BigStack(), ~BigStack()
+c B
+p
+d
+
+~
+
+# Test Push()
+c B
+p
++ a
+p
++ b
+p
++ c
+p
++ d
+p
+d
+
+~
+
+# Test Pop(), Top()
+c B
+t
++ a
++ b
++ c
++ d
++ e
+p
++ f
+p
++ g
+p
+-
+-
+p
+t
++ h
++ i
++ j
++ k
++ l
++ m
++ n
+p
+t
+-
+-
+-
+p
+t
+d
+
+

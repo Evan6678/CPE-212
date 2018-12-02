@@ -1,0 +1,38 @@
+# p02input1.txt - Test Triangle class
+
+# Test default constructor
++ t
+?
+-
+
+# Test parameterized constructor
++ T 3 4 5 128 256 0
+?
+-
+
+# Test area() and perimeter() with default constructor
++ t
+?
+a
+p
+-
+
+# Test area() and perimeter() with parameterized constructor
++ T 3 4 5 128 256 0
+?
+a
+p
+-
+
+# Test getColor() with default constructor
++ t
+?
+c
+-
+
+# Test getColor() parameterized constructor
++ T 3 4 5 128 256 0
+?
+c
+-
+

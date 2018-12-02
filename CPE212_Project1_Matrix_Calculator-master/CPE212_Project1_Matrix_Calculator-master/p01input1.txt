@@ -1,0 +1,43 @@
+# p01input1.txt -- Test of Transpose Image
+
+0 0 0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0 0 0
+1 0 0 0 1 1 0 0 0 0
+0 0 0 0 1 1 0 0 0 0
+0 0 1 1 1 1 0 0 0 0
+0 0 1 1 1 1 0 0 0 0
+0 0 0 0 0 0 1 1 0 0
+0 0 0 0 0 0 1 1 0 0
+0 1 0 0 0 0 0 0 0 0
+1 0 0 0 1 1 0 0 0 0
+
+# Draw Bars
+b
+
+# Print Original Image
+p
+
+# Draw Bars
+b
+
+# Test Transpose Image
+t
+
+# Print Image
+p
+
+# Test Transpose Image
+t
+
+# Print Image
+p
+
+# Draw Bars
+b
+
+
+
+
+
+
+

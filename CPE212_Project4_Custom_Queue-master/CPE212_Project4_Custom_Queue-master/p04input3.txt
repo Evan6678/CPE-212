@@ -1,0 +1,159 @@
+# p04input3.txt -- Test: Peek(), Purge()
+
+# Test Peek() normal operation
+
+c
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
+p
+? 0
+? 1
+? 2
+p
+-
+? 0
+? 1
+p
+-
+? 0
+? 1
+? 2
+? 3
+? 5
+p
+-
+? 0
+? 1
+? 2
+? 3
+? 5
+d
+
+
+# Test Peek() error handling
+c
+? 0
+? 1
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
+p
+? 1
+? 3
+? 5
+-
+p
+? 1
+? 2
+? 3
+? 5
+p
+d
+
+# Test Purge(HIGH) normal operation
+
+c
+p
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+s
+x H
+p
+s
+d
+
+# Test Purge(MEDIUM) normal operation
+c
+p
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+s
+x M
+p
+s
+d
+
+# Test Purge(LOW) normal operation
+c
+p
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+s
+x L
+p
+s
+d
+
+# Test Purge() normal operation
+c
+p
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+s
+x H
+p
+s
+x M
+p
+s
+x L
+p
+s
++ H Cat Food
++ L Dog Walk
++ M Goat Chow
++ H Horse Oats
++ L Rabbit Food
++ M Zebra Stripes
++ H Bird Seed
+p
+x L
+p
+x M
+p
+x H
+p
+d
+
+# Test Purge() error handling
+c
+p
+x L
+p
+s
+x M
+p
+s
+x H
+p
+s
+d
+
+
+
+
